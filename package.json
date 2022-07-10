@@ -1,0 +1,13 @@
+{
+  "name": "albert_stevensen",
+  "version": "1.0.0",
+  "description": "testing_website",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "cy:open" : "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "9.7.0"
+  }
+}
