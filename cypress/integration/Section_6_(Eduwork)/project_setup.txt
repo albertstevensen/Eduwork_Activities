@@ -1,0 +1,22 @@
+Soal:
+Pada halaman 04 (Slide 6) digambar menunjukkan ada 1 file yang belum dijelaskan yaitu file cypress.json. 
+Sebutkan kegunaan dari file tersebut dan berikan contohnya.
+
+Jawaban:
+    Kegunaan
+    Pertama kali kita membuka Cypress, file konfigurasi cypress.json akan dibuat. 
+    File JSON ini digunakan untuk menyimpan nilai konfigurasi apa pun yang kita berikan. 
+    Jika kita mengonfigurasi pengujian kita untuk merekam hasil ke Dasbor Cypress, projectId juga akan ditulis dalam file ini.
+
+    Contohnya:
+    Pada file cypress.json kita dapat mendefinisikan baseURL yang ingin kita tuju, dengan script sebagai berikut.
+    {
+        "baseURL" : "http://localhost:8000/"
+    }
+    kita dapat memanfaatkan environment variable saat menuliskan baseURL pada halaman yang ingin dikunjungi yang diatur pada file cypress.json. 
+    Environment variable tersebut dapat memudahkan kita dalam melakukan perubahan ketika 
+    terdapat variable yang bersifat dinamis pada setiap environment (dev, staging, qa, prod) maupun developer.
+
+Sumber:
+https://blog.dot.co.id/end-to-end-test-using-cypress-part-1-cf8bdcffa9af
+https://docs.cypress.io/guides/references/legacy-configuration#cypress-json
