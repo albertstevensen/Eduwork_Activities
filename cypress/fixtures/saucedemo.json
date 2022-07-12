@@ -3,5 +3,5 @@
   "password" : "secret_sauce",
   "firstName" : "Albert",
   "lastName" : "Stevensen",
-  "postalCode" : "11460" 
+  "postalcode" : "11460" 
 }
