@@ -1,0 +1,7 @@
+Memiliki kode yang konsisten adalah praktik yang baik. Hal ini sangat bermanfaat saat bekerja di proyek bersama beberapa kolaborator. 
+Menyepakati seperangkat konfigurasi akan membantu dalam kemudahan membaca dan memahami kode. Akan ada lebih banyak waktu yang dapat dicurahkan 
+untuk memecahkan masalah teknis yang menantang, bukannya berkutat dengan masalah yang telah diselesaikan seperti indentasi kode.
+Prettier menjaga konsistensi dalam pemformatan kode Anda dan mengotomatiskan prosesnya.
+
+Sumber:
+https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code-id

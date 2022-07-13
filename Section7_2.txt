@@ -1,0 +1,7 @@
+Setup projects dapat digunakan untuk membangun berbagai paket penerapan. 
+Setup projects digunakan untuk membuat file Penginstal Windows (.msi), yang digunakan untuk mendistribusikan 
+aplikasi kita untuk penginstalan di komputer lain atau web server.
+
+Sumber:
+https://www.codeproject.com/Articles/146626/Extending-Visual-Studio-Setup-Project
+https://www.red-gate.com/simple-talk/development/dotnet-development/getting-started-with-setup-projects/ 
