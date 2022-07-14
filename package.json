@@ -5,7 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "cypress open": "cy:open"
+    "cy:open": "cyress open",
+    "cy:run" : "cypress run"
   },
   "devDependencies": {
     "cypress": "9.7.0",
