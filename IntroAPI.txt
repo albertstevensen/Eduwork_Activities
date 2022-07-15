@@ -1,0 +1,25 @@
+Soal:
+Materi yang dijelaskan hanya point terpentingnya saja. 
+Selanjutnya, carilah artikel mengenai API lalu catat poin-poin pentingnya dan berikan kesimpulannya.
+
+Jawaban:
+API adalah solusi agar pengembangan website menjadi lebih baik dan lebih mudah.
+
+API sendiri ada beberapa jenis seperti:
+- Public API
+- Private API
+- Patner API
+- Composite API
+
+Manfaat dari menggunakan API sendiri adalah untuk memudahkan dalam membangun aplikasi yang fungsional,
+pengembangan aplikasi jauh lebih efisien, meringankan beban server
+API terdiri dari beberapa arsitektur seperti:
+- RPC 
+- SOAP 
+- REST
+
+Cara kerjanya juga mudah untuk di pahami, berikut adalah cara kerja API:
+1. Aplikasi mengakses API
+2. API melakukan request ke server
+3. Server memberi respon ke API
+4. API memyampaikan respon ke aplikasi
