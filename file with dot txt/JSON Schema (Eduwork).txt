@@ -1,0 +1,12 @@
+Secara sederhana kita memahami bahwa JSON Schema adalah struktur data yang diperlukan dalam melakukan interaksi antar aplikasi memakai format JSON. 
+Sedangkan JSON sendiri merupakan kependekan dari JavaScript Object Notation, suatu format pertukaran data yang terkenal banyak digunakan.
+Pada JSON Schema ini kita dapat mendefinisikan field yang digunakan dan juga tipe data yang digunakan. Struktur data yang mendefinisikan kita sebut schema, 
+kemudian data json yang dimasukkan dan divalidasi akan disebut dengan instance.
+
+Menggunakan JSON schemas untuk menggambarkan data yang mengalir melalui sistem, mendokumentasikan rute API, menguji kode server, 
+dan bahkan memvalidasi perlengkapan yang digunakan selama pengujian end-to-end testing
+
+Sumber:
+https://www.cypress.io/blog/2018/07/10/json-schemas-are-your-true-testing-friend
+https://ahmed-alsaab.medium.com/cypress-api-schema-validation-with-ajv-ec61348374f7
+https://www.proweb.co.id/articles/restful/json-schema.html
