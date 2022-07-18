@@ -2,5 +2,8 @@
     "video": false,
     "defaultCommandTimeout": 5000,
     "pageLoadTimeout": 10000,
-    "chromeWebSecurity": false
+    "chromeWebSecurity": false,
+    "env": {
+        "apiUrl": "https://eduwork.free.beeceptor.com/login"
+      }
 }
