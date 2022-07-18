@@ -1,0 +1,17 @@
+Tugas:
+Menurut anda, assertion untuk Method DELETE.
+Selain hanya status code apakah ada lagi? Coba jelaskan.
+
+Jawaban:
+Berdasarkan hasil pencarian saya assertion untuk Method DELETE, 
+hampir semua automation test khususnya di cypress menggunakan assertion untuk Method DELETE
+dengan status code. Status code sendiri adalah jawaban server website atas permintaan data oleh browser kita
+kesimpulan yang saya dapat adalah assertion untuk Method DELETE dengan status code hanya untuk melakukan validasi apakah
+data pada API sudah terhapus atau belum, karena data yang dihapus berdasarkan ID otomatis seluruh data dengan ID tertentu akan dihapus.
+Jadi status code akan memberi respon ke kita bahwa seluruh data yang kita request untuk dihapus sudah terhapus. 
+Sehingga hanya response dari status code yang dapat di validasi, tidak dapat menggunakan response yang lain.
+
+Sumber:
+https://www.niagahoster.co.id/blog/http-status-code/
+https://dev.to/muratkeremozcan/crud-api-testing-a-deployed-service-with-cypress-using-cy-api-spok-cypress-data-session-cypress-each-4mlg#our-crud-e2e-test-strategy
+https://morioh.com/p/b91452beef90
