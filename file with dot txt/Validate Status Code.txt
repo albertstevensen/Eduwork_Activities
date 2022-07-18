@@ -1,0 +1,16 @@
+Soal:
+Dalam setiap API Automation Test. Validate Status apakah penting? Berikan pendapat anda.
+
+Jawaban:
+Sama-sama memiliki peran penting karena dari validate status, kita tahu bahwa tanggapan yang merupakan hasil dari permintaan yang dikirim.
+permintaan url dapat dibuat dengan beberapa parameter, header, dan opsi lain, serta berbagai metode HTTP dan dapat menampung badan respons 
+untuk digunakan nanti untuk membuat pernyataan kita. validate status penting, 
+karena ini akan menandai perbedaan antara panggilan API yang lewat atau gagal.
+Popular assertions can be validating data inside the response body, 
+validating the presence of a header, or validating a specific status code.
+
+Sumber:
+https://medium.com/@successivetech/status-codes-in-api-testing-b840d9387589
+https://gorillalogic.com/blog/automation-testing-part-2-api-testing-using-rest-assured/
+https://www.sisense.com/blog/rest-api-testing-strategy-what-exactly-should-you-test/
+
