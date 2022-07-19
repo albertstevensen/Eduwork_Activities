@@ -1,0 +1,40 @@
+Soal:
+Selain error code 404, masih ada banyak lagi error code yang lainnya. 
+Coba sebutkan dan fungsinya apa saja!
+
+Jawaban:
+Kode respon klien error (kode 4xx):
+1. 400 Bad Request
+Kode ini menunjukkan bahwa server tidak memahami permintaan dikarenakan syntax yang invalid.
+
+2. 401 Unauthorized
+HTTP status code ini adalah kode yang dikirim ketika permintaan tidak terautentifikasi. Sehingga, 
+kita harus melakukan autentikasi untuk mendapatkan respons yang diminta.
+
+3. 403 Forbidden
+Kode status ini biasanya muncul ketika kita membuka sebuah laman yang tidak kamu miliki aksesnya. 
+Berbeda dengan kode status 401, server akan mengidentifikasimu sebagai pengguna.
+
+4. 408 Request Timeout
+Kode ini dikirim pada koneksi yang tidak aktif oleh beberapa server, bahkan tanpa permintaan sebelumnya oleh klien.
+Artinya, server ingin mematikan koneksi yang tidak digunakan ini.
+Respons ini digunakan lebih banyak karena beberapa browser, seperti Chrome, Firefox 27+, atau IE9, 
+menggunakan mekanisme pra-koneksi HTTP untuk mempercepat penjelajahan.
+
+Kode respon server error (5xx):
+a. 500 Internal Server Error
+HTTP status code ini adalah kode yang dikirimkan ketika server mengalami situasi yang tidak diketahui cara menanganinya.
+
+b. 502 Bad Gateway
+Respons kesalahan ini berarti bahwa server, saat bekerja sebagai gateway untuk mendapatkan respons yang diperlukan untuk menangani permintaan, 
+mendapat respons yang tidak valid.
+
+c. 503 Service Unavailable
+Kode ini akan muncul ketika server tidak siap untuk menangani permintaan tersebut. Penyebab umumnya adalah server tidak aktif 
+karena pemeliharaan atau kelebihan beban.
+
+d. 504 Gateway Timeout
+Kode status ini akan muncul saat server bertindak sebagai gateway dan tidak bisa mendapatkan respons tepat waktu.
+
+e. 511 Network Authentication Required
+Kode status 511 menunjukkan bahwa kamu perlu melakukan otentikasi untuk mendapatkan akses jaringan.
