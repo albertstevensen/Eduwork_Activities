@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Automated Testing Samsung Shop" time="44.972" tests="1" failures="0" errors="0">
+   <testsuite name="Automated Testing Samsung Shop" tests="1" failures="0" errors="0" time="44.972" skipped="0" timestamp="2022-07-30 18:29:27" hostname="Client - DESKTOP-RPTHIHS" id="Test Suites/Automated Testing Samsung Shop">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 6.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Client\\Katalon Studio\\Testing Aplikasi (Eduwork)\\Reports\\20220730_182917\\Automated Testing Samsung Shop\\20220730_182917"/>
+         <property name="logFiles" value="C:\\Users\\Client\\Katalon Studio\\Testing Aplikasi (Eduwork)\\Reports\\20220730_182917\\Automated Testing Samsung Shop\\20220730_182917\\appium.log, C:\\Users\\Client\\Katalon Studio\\Testing Aplikasi (Eduwork)\\Reports\\20220730_182917\\Automated Testing Samsung Shop\\20220730_182917\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Client - DESKTOP-RPTHIHS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 6.0)"/>
+         <property name="deviceOSVersion" value="6.0"/>
+      </properties>
+      <testcase name="Test Cases/Samsung_Shop/Buy_Samsung" time="44.693" classname="Test Cases/Samsung_Shop/Buy_Samsung" status="PASSED">
+         <system-out><![CDATA[2022-07-30 18:29:27 - [TEST_CASE][PASSED] - Test Cases/Samsung_Shop/Buy_Samsung: Test Cases/Samsung_Shop/Buy_Samsung
+
+2022-07-30 18:29:28 - [TEST_STEP][PASSED] - startApplication("MobileApp/Shop_Samsung_v1.apk", false): Started app at: 'C:\Users\Client\Katalon Studio\Testing Aplikasi (Eduwork)\MobileApp\Shop_Samsung_v1.apk'
+
+2022-07-30 18:29:28 - [MESSAGE][INFO] - Detected NodeJS location: "D:\NodeJs\Node\node.exe"
+
+2022-07-30 18:29:30 - [MESSAGE][INFO] - Appium server started on port 52,939
+
+2022-07-30 18:29:49 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Client\Katalon Studio\Testing Aplikasi (Eduwork)\MobileApp\Shop_Samsung_v1.apk'
+
+2022-07-30 18:29:49 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-30 18:29:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-30 18:29:52 - [TEST_STEP][PASSED] - tap(findTestObject("Samsung/Shop.TextView"), 0): Tapped on element 'Object Repository/Samsung/Shop.TextView'
+
+2022-07-30 18:29:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-30 18:29:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Samsung/Shop.TextView'
+
+2022-07-30 18:29:53 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-30 18:29:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-30 18:29:56 - [TEST_STEP][PASSED] - tap(findTestObject("Samsung/Phones.ImageView"), 0): Tapped on element 'Object Repository/Samsung/Phones.ImageView'
+
+2022-07-30 18:29:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-30 18:29:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Samsung/Phones.ImageView'
+
+2022-07-30 18:29:56 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-30 18:29:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-30 18:29:57 - [TEST_STEP][PASSED] - tap(findTestObject("Samsung/GalaxyS.ImageView"), 0): Tapped on element 'Object Repository/Samsung/GalaxyS.ImageView'
+
+2022-07-30 18:29:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-30 18:29:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Samsung/GalaxyS.ImageView'
+
+2022-07-30 18:29:57 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-30 18:29:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-30 18:29:58 - [TEST_STEP][PASSED] - tap(findTestObject("Samsung/SearchTextView"), 0): Tapped on element 'Object Repository/Samsung/SearchTextView'
+
+2022-07-30 18:29:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-30 18:29:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Samsung/SearchTextView'
+
+2022-07-30 18:29:59 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-30 18:30:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-30 18:30:00 - [TEST_STEP][PASSED] - setText(findTestObject("Samsung/EditText"), "Galaxy", 0): Text 'Galaxy' has been set to element 'Object Repository/Samsung/EditText'
+
+2022-07-30 18:30:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-30 18:30:02 - [MESSAGE][PASSED] - Text 'Galaxy' has been set to element 'Object Repository/Samsung/EditText'
+
+2022-07-30 18:30:02 - [TEST_STEP][PASSED] - tap(findTestObject("Samsung/GalaxyS22UltraTextView"), 0): Tapped on element 'Object Repository/Samsung/GalaxyS22UltraTextView'
+
+2022-07-30 18:30:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-30 18:30:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Samsung/GalaxyS22UltraTextView'
+
+2022-07-30 18:30:03 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-30 18:30:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-30 18:30:04 - [TEST_STEP][PASSED] - scrollToText("A Note-Worth new look", STOP_ON_FAILURE): Scrolling to text 'A Note-Worth new look' successfully
+
+2022-07-30 18:30:09 - [MESSAGE][PASSED] - Scrolling to text 'A Note-Worth new look' successfully
+
+2022-07-30 18:30:09 - [TEST_STEP][PASSED] - tap(findTestObject("Samsung/SpecsTextView"), 0): Tapped on element 'Object Repository/Samsung/SpecsTextView'
+
+2022-07-30 18:30:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-30 18:30:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Samsung/SpecsTextView'
+
+2022-07-30 18:30:10 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-30 18:30:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-30 18:30:11 - [TEST_STEP][PASSED] - tap(findTestObject("Samsung/BuyNowTextView"), 0): Tapped on element 'Object Repository/Samsung/BuyNowTextView'
+
+2022-07-30 18:30:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-30 18:30:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Samsung/BuyNowTextView'
+
+2022-07-30 18:30:11 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-07-30 18:30:12 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-30 18:29:27 - [TEST_SUITE][PASSED] - Automated Testing Samsung Shop: Test Cases/Samsung_Shop/Buy_Samsung]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

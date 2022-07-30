@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Automated Testing Samsung Shop,,,,2022-07-30 18:29:27,2022-07-30 18:30:12,44.972s,PASSED
+,,,,,,,
+Test Cases/Samsung_Shop/Buy_Samsung,,,,2022-07-30 18:29:27,2022-07-30 18:30:12,44.693s,PASSED
+"startApplication(""MobileApp/Shop_Samsung_v1.apk"", false)",,,,2022-07-30 18:29:28,2022-07-30 18:29:49,21.264s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-30 18:29:49,2022-07-30 18:29:52,3.064s,PASSED
+"tap(findTestObject(""Samsung/Shop.TextView""), 0)",,,,2022-07-30 18:29:52,2022-07-30 18:29:53,0.676s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-30 18:29:53,2022-07-30 18:29:56,3.013s,PASSED
+"tap(findTestObject(""Samsung/Phones.ImageView""), 0)",,,,2022-07-30 18:29:56,2022-07-30 18:29:56,0.199s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2022-07-30 18:29:56,2022-07-30 18:29:57,1.009s,PASSED
+"tap(findTestObject(""Samsung/GalaxyS.ImageView""), 0)",,,,2022-07-30 18:29:57,2022-07-30 18:29:57,0.194s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2022-07-30 18:29:57,2022-07-30 18:29:58,1.014s,PASSED
+"tap(findTestObject(""Samsung/SearchTextView""), 0)",,,,2022-07-30 18:29:58,2022-07-30 18:29:59,1.228s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2022-07-30 18:29:59,2022-07-30 18:30:00,1.012s,PASSED
+"setText(findTestObject(""Samsung/EditText""), ""Galaxy"", 0)",,,,2022-07-30 18:30:00,2022-07-30 18:30:02,1.791s,PASSED
+"tap(findTestObject(""Samsung/GalaxyS22UltraTextView""), 0)",,,,2022-07-30 18:30:02,2022-07-30 18:30:03,1.038s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2022-07-30 18:30:03,2022-07-30 18:30:04,1.009s,PASSED
+"scrollToText(""A Note-Worth new look"", STOP_ON_FAILURE)",,,,2022-07-30 18:30:04,2022-07-30 18:30:09,5.045s,PASSED
+"tap(findTestObject(""Samsung/SpecsTextView""), 0)",,,,2022-07-30 18:30:09,2022-07-30 18:30:10,0.228s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2022-07-30 18:30:10,2022-07-30 18:30:11,1.012s,PASSED
+"tap(findTestObject(""Samsung/BuyNowTextView""), 0)",,,,2022-07-30 18:30:11,2022-07-30 18:30:11,0.349s,PASSED
+closeApplication(),,,,2022-07-30 18:30:11,2022-07-30 18:30:12,1.129s,PASSED
