@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Happy_Day_Shopping_Apk" time="160.283" tests="5" failures="0" errors="0">
+   <testsuite name="Happy_Day_Shopping_Apk" tests="5" failures="0" errors="0" time="160.283" skipped="0" timestamp="2022-07-31 22:02:36" hostname="Client - DESKTOP-RPTHIHS" id="Test Suites/Happy_Day_Shopping_Apk/Happy_Day_Shopping_Apk">
+      <properties>
+         <property name="deviceName" value="samsung SM-A530F (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Client\\Katalon Studio\\Eduwork_Portofolio\\Reports\\20220731_220233\\Happy_Day_Shopping_Apk\\Happy_Day_Shopping_Apk\\20220731_220233"/>
+         <property name="logFiles" value="C:\\Users\\Client\\Katalon Studio\\Eduwork_Portofolio\\Reports\\20220731_220233\\Happy_Day_Shopping_Apk\\Happy_Day_Shopping_Apk\\20220731_220233\\appium.log, C:\\Users\\Client\\Katalon Studio\\Eduwork_Portofolio\\Reports\\20220731_220233\\Happy_Day_Shopping_Apk\\Happy_Day_Shopping_Apk\\20220731_220233\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Client - DESKTOP-RPTHIHS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A530F"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="5200fd45ea793599"/>
+         <property name="deviceName" value="samsung SM-A530F (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Happy Day Shopping/Checkout_Item" time="38.262" classname="Test Cases/Happy Day Shopping/Checkout_Item" status="PASSED">
+         <system-out><![CDATA[2022-07-31 22:02:36 - [TEST_CASE][PASSED] - Test Cases/Happy Day Shopping/Checkout_Item: Test Cases/Happy Day Shopping/Checkout_Item
+
+2022-07-31 22:02:37 - [TEST_STEP][PASSED] - startApplication("MobileApp/HappyDayShopping_v1.2.apk", false): Started app at: 'C:\Users\Client\Katalon Studio\Eduwork_Portofolio\MobileApp\HappyDayShopping_v1.2.apk'
+
+2022-07-31 22:02:37 - [MESSAGE][INFO] - Detected NodeJS location: "D:\NodeJs\Node\node.exe"
+
+2022-07-31 22:02:39 - [MESSAGE][INFO] - Appium server started on port 61,132
+
+2022-07-31 22:02:56 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Client\Katalon Studio\Eduwork_Portofolio\MobileApp\HappyDayShopping_v1.2.apk'
+
+2022-07-31 22:02:56 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:02:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:02:58 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Flash_Sale_ImageView"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Flash_Sale_ImageView'
+
+2022-07-31 22:02:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:02:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Flash_Sale_ImageView'
+
+2022-07-31 22:02:59 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Anlene_Product_Table"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Anlene_Product_Table'
+
+2022-07-31 22:02:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:03:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Anlene_Product_Table'
+
+2022-07-31 22:03:03 - [TEST_STEP][PASSED] - scrollToText("UPC: 4806501597003", STOP_ON_FAILURE): Scrolling to text 'UPC: 4806501597003' successfully
+
+2022-07-31 22:03:07 - [MESSAGE][PASSED] - Scrolling to text 'UPC: 4806501597003' successfully
+
+2022-07-31 22:03:07 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Add_to_Bag_Button"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Add_to_Bag_Button'
+
+2022-07-31 22:03:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:03:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Add_to_Bag_Button'
+
+2022-07-31 22:03:08 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:03:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:03:10 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Your_Bag_Button"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Your_Bag_Button'
+
+2022-07-31 22:03:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:03:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Your_Bag_Button'
+
+2022-07-31 22:03:10 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Checkout_Button"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Checkout_Button'
+
+2022-07-31 22:03:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:03:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Checkout_Button'
+
+2022-07-31 22:03:11 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:03:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:03:13 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-07-31 22:03:14 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Happy Day Shopping/Clear_Item_In_Your_Bag" time="27.642" classname="Test Cases/Happy Day Shopping/Clear_Item_In_Your_Bag" status="PASSED">
+         <system-out><![CDATA[2022-07-31 22:03:14 - [TEST_CASE][PASSED] - Test Cases/Happy Day Shopping/Clear_Item_In_Your_Bag: Test Cases/Happy Day Shopping/Clear_Item_In_Your_Bag
+
+2022-07-31 22:03:15 - [TEST_STEP][PASSED] - startApplication("MobileApp/HappyDayShopping_v1.2.apk", false): Started app at: 'C:\Users\Client\Katalon Studio\Eduwork_Portofolio\MobileApp\HappyDayShopping_v1.2.apk'
+
+2022-07-31 22:03:15 - [MESSAGE][INFO] - Detected NodeJS location: "D:\NodeJs\Node\node.exe"
+
+2022-07-31 22:03:17 - [MESSAGE][INFO] - Appium server started on port 61,321
+
+2022-07-31 22:03:30 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Client\Katalon Studio\Eduwork_Portofolio\MobileApp\HappyDayShopping_v1.2.apk'
+
+2022-07-31 22:03:30 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:03:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:03:32 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/YourBag_TextView"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/YourBag_TextView'
+
+2022-07-31 22:03:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:03:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/YourBag_TextView'
+
+2022-07-31 22:03:35 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/ClearItem_Button"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/ClearItem_Button'
+
+2022-07-31 22:03:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:03:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/ClearItem_Button'
+
+2022-07-31 22:03:37 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:03:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:03:39 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Yes_Button_PopUp"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Yes_Button_PopUp'
+
+2022-07-31 22:03:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:03:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Yes_Button_PopUp'
+
+2022-07-31 22:03:39 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:03:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:03:41 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-07-31 22:03:42 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Happy Day Shopping/Checkout_More_Than_One_Qty" time="46.25" classname="Test Cases/Happy Day Shopping/Checkout_More_Than_One_Qty" status="PASSED">
+         <system-out><![CDATA[2022-07-31 22:03:42 - [TEST_CASE][PASSED] - Test Cases/Happy Day Shopping/Checkout_More_Than_One_Qty: Test Cases/Happy Day Shopping/Checkout_More_Than_One_Qty
+
+2022-07-31 22:03:42 - [TEST_STEP][PASSED] - startApplication("MobileApp/HappyDayShopping_v1.2.apk", false): Started app at: 'C:\Users\Client\Katalon Studio\Eduwork_Portofolio\MobileApp\HappyDayShopping_v1.2.apk'
+
+2022-07-31 22:03:43 - [MESSAGE][INFO] - Detected NodeJS location: "D:\NodeJs\Node\node.exe"
+
+2022-07-31 22:03:45 - [MESSAGE][INFO] - Appium server started on port 61,499
+
+2022-07-31 22:03:58 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Client\Katalon Studio\Eduwork_Portofolio\MobileApp\HappyDayShopping_v1.2.apk'
+
+2022-07-31 22:03:58 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:04:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:04:00 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/BurgerBar_Menu_ImageView"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/BurgerBar_Menu_ImageView'
+
+2022-07-31 22:04:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:04:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/BurgerBar_Menu_ImageView'
+
+2022-07-31 22:04:02 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Electronics_Menu_ListView"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Electronics_Menu_ListView'
+
+2022-07-31 22:04:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:04:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Electronics_Menu_ListView'
+
+2022-07-31 22:04:04 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:04:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:04:06 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Torch_Product_TextView"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Torch_Product_TextView'
+
+2022-07-31 22:04:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:04:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Torch_Product_TextView'
+
+2022-07-31 22:04:13 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Add_to_Bag_Button"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Add_to_Bag_Button'
+
+2022-07-31 22:04:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:04:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Add_to_Bag_Button'
+
+2022-07-31 22:04:15 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:04:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:04:17 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/YourBag_TextView"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/YourBag_TextView'
+
+2022-07-31 22:04:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:04:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/YourBag_TextView'
+
+2022-07-31 22:04:17 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:04:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:04:19 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Add_Qty_Button"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Add_Qty_Button'
+
+2022-07-31 22:04:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:04:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Add_Qty_Button'
+
+2022-07-31 22:04:20 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Plus_Button"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Plus_Button'
+
+2022-07-31 22:04:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:04:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Plus_Button'
+
+2022-07-31 22:04:22 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Plus_Button"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Plus_Button'
+
+2022-07-31 22:04:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:04:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Plus_Button'
+
+2022-07-31 22:04:23 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Minus_Button"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Minus_Button'
+
+2022-07-31 22:04:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:04:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Minus_Button'
+
+2022-07-31 22:04:24 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/ConfirmQTY_Button"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/ConfirmQTY_Button'
+
+2022-07-31 22:04:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:04:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/ConfirmQTY_Button'
+
+2022-07-31 22:04:25 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:04:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:04:27 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/Checkout_Button"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/Checkout_Button'
+
+2022-07-31 22:04:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:04:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/Checkout_Button'
+
+2022-07-31 22:04:27 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-07-31 22:04:28 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Happy Day Shopping/Visit_AboutUs_Page" time="23.494" classname="Test Cases/Happy Day Shopping/Visit_AboutUs_Page" status="PASSED">
+         <system-out><![CDATA[2022-07-31 22:04:28 - [TEST_CASE][PASSED] - Test Cases/Happy Day Shopping/Visit_AboutUs_Page: Test Cases/Happy Day Shopping/Visit_AboutUs_Page
+
+2022-07-31 22:04:29 - [TEST_STEP][PASSED] - startApplication("MobileApp/HappyDayShopping_v1.2.apk", false): Started app at: 'C:\Users\Client\Katalon Studio\Eduwork_Portofolio\MobileApp\HappyDayShopping_v1.2.apk'
+
+2022-07-31 22:04:29 - [MESSAGE][INFO] - Detected NodeJS location: "D:\NodeJs\Node\node.exe"
+
+2022-07-31 22:04:31 - [MESSAGE][INFO] - Appium server started on port 61,681
+
+2022-07-31 22:04:44 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Client\Katalon Studio\Eduwork_Portofolio\MobileApp\HappyDayShopping_v1.2.apk'
+
+2022-07-31 22:04:44 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:04:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:04:46 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/AboutUs_TextView"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/AboutUs_TextView'
+
+2022-07-31 22:04:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:04:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/AboutUs_TextView'
+
+2022-07-31 22:04:49 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:04:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:04:51 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-07-31 22:04:52 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Happy Day Shopping/Visit_ContactUs_Page" time="24.315" classname="Test Cases/Happy Day Shopping/Visit_ContactUs_Page" status="PASSED">
+         <system-out><![CDATA[2022-07-31 22:04:52 - [TEST_CASE][PASSED] - Test Cases/Happy Day Shopping/Visit_ContactUs_Page: Test Cases/Happy Day Shopping/Visit_ContactUs_Page
+
+2022-07-31 22:04:52 - [TEST_STEP][PASSED] - startApplication("MobileApp/HappyDayShopping_v1.2.apk", false): Started app at: 'C:\Users\Client\Katalon Studio\Eduwork_Portofolio\MobileApp\HappyDayShopping_v1.2.apk'
+
+2022-07-31 22:04:52 - [MESSAGE][INFO] - Detected NodeJS location: "D:\NodeJs\Node\node.exe"
+
+2022-07-31 22:04:54 - [MESSAGE][INFO] - Appium server started on port 61,854
+
+2022-07-31 22:05:09 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Client\Katalon Studio\Eduwork_Portofolio\MobileApp\HappyDayShopping_v1.2.apk'
+
+2022-07-31 22:05:09 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-31 22:05:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-31 22:05:12 - [TEST_STEP][PASSED] - tap(findTestObject("Happy_Day_Shopping/ContactUs_TextView"), 0): Tapped on element 'Object Repository/Happy_Day_Shopping/ContactUs_TextView'
+
+2022-07-31 22:05:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-31 22:05:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Happy_Day_Shopping/ContactUs_TextView'
+
+2022-07-31 22:05:13 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-31 22:05:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-31 22:05:15 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-07-31 22:05:16 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-31 22:02:36 - [TEST_SUITE][PASSED] - Happy_Day_Shopping_Apk: Test Cases/Happy Day Shopping/Visit_ContactUs_Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Happy_Day_Shopping_Apk,,,,2022-07-31 22:02:36,2022-07-31 22:05:16,2m - 40.283s,PASSED
+,,,,,,,
+Test Cases/Happy Day Shopping/Checkout_Item,,,,2022-07-31 22:02:36,2022-07-31 22:03:14,38.262s,PASSED
+"startApplication(""MobileApp/HappyDayShopping_v1.2.apk"", false)",,,,2022-07-31 22:02:37,2022-07-31 22:02:56,18.901s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:02:56,2022-07-31 22:02:58,2.054s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Flash_Sale_ImageView""), 0)",,,,2022-07-31 22:02:58,2022-07-31 22:02:59,1.683s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Anlene_Product_Table""), 0)",,,,2022-07-31 22:02:59,2022-07-31 22:03:03,3.941s,PASSED
+"scrollToText(""UPC: 4806501597003"", STOP_ON_FAILURE)",,,,2022-07-31 22:03:03,2022-07-31 22:03:07,3.933s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Add_to_Bag_Button""), 0)",,,,2022-07-31 22:03:07,2022-07-31 22:03:08,0.599s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:03:08,2022-07-31 22:03:10,2.020s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Your_Bag_Button""), 0)",,,,2022-07-31 22:03:10,2022-07-31 22:03:10,0.522s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Checkout_Button""), 0)",,,,2022-07-31 22:03:10,2022-07-31 22:03:11,1.211s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:03:11,2022-07-31 22:03:13,2.017s,PASSED
+closeApplication(),,,,2022-07-31 22:03:13,2022-07-31 22:03:14,0.897s,PASSED
+,,,,,,,
+Test Cases/Happy Day Shopping/Clear_Item_In_Your_Bag,,,,2022-07-31 22:03:14,2022-07-31 22:03:42,27.642s,PASSED
+"startApplication(""MobileApp/HappyDayShopping_v1.2.apk"", false)",,,,2022-07-31 22:03:15,2022-07-31 22:03:30,15.564s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:03:30,2022-07-31 22:03:32,2.019s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/YourBag_TextView""), 0)",,,,2022-07-31 22:03:32,2022-07-31 22:03:35,2.963s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/ClearItem_Button""), 0)",,,,2022-07-31 22:03:35,2022-07-31 22:03:37,1.359s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:03:37,2022-07-31 22:03:39,2.012s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Yes_Button_PopUp""), 0)",,,,2022-07-31 22:03:39,2022-07-31 22:03:39,0.553s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:03:39,2022-07-31 22:03:41,2.007s,PASSED
+closeApplication(),,,,2022-07-31 22:03:41,2022-07-31 22:03:42,0.763s,PASSED
+,,,,,,,
+Test Cases/Happy Day Shopping/Checkout_More_Than_One_Qty,,,,2022-07-31 22:03:42,2022-07-31 22:04:28,46.250s,PASSED
+"startApplication(""MobileApp/HappyDayShopping_v1.2.apk"", false)",,,,2022-07-31 22:03:42,2022-07-31 22:03:58,15.464s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:03:58,2022-07-31 22:04:00,2.011s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/BurgerBar_Menu_ImageView""), 0)",,,,2022-07-31 22:04:00,2022-07-31 22:04:02,2.506s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Electronics_Menu_ListView""), 0)",,,,2022-07-31 22:04:02,2022-07-31 22:04:04,2.079s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:04:04,2022-07-31 22:04:06,2.015s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Torch_Product_TextView""), 0)",,,,2022-07-31 22:04:06,2022-07-31 22:04:13,6.525s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Add_to_Bag_Button""), 0)",,,,2022-07-31 22:04:13,2022-07-31 22:04:15,1.798s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:04:15,2022-07-31 22:04:17,2.016s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/YourBag_TextView""), 0)",,,,2022-07-31 22:04:17,2022-07-31 22:04:17,0.605s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:04:17,2022-07-31 22:04:19,2.019s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Add_Qty_Button""), 0)",,,,2022-07-31 22:04:19,2022-07-31 22:04:20,0.565s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Plus_Button""), 0)",,,,2022-07-31 22:04:20,2022-07-31 22:04:22,1.631s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Plus_Button""), 0)",,,,2022-07-31 22:04:22,2022-07-31 22:04:23,1.031s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Minus_Button""), 0)",,,,2022-07-31 22:04:23,2022-07-31 22:04:24,1.065s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/ConfirmQTY_Button""), 0)",,,,2022-07-31 22:04:24,2022-07-31 22:04:25,1.103s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:04:25,2022-07-31 22:04:27,2.009s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/Checkout_Button""), 0)",,,,2022-07-31 22:04:27,2022-07-31 22:04:27,0.557s,PASSED
+closeApplication(),,,,2022-07-31 22:04:27,2022-07-31 22:04:28,0.887s,PASSED
+,,,,,,,
+Test Cases/Happy Day Shopping/Visit_AboutUs_Page,,,,2022-07-31 22:04:28,2022-07-31 22:04:52,23.494s,PASSED
+"startApplication(""MobileApp/HappyDayShopping_v1.2.apk"", false)",,,,2022-07-31 22:04:29,2022-07-31 22:04:44,15.528s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:04:44,2022-07-31 22:04:46,2.009s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/AboutUs_TextView""), 0)",,,,2022-07-31 22:04:46,2022-07-31 22:04:49,2.799s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:04:49,2022-07-31 22:04:51,2.010s,PASSED
+closeApplication(),,,,2022-07-31 22:04:51,2022-07-31 22:04:52,0.783s,PASSED
+,,,,,,,
+Test Cases/Happy Day Shopping/Visit_ContactUs_Page,,,,2022-07-31 22:04:52,2022-07-31 22:05:16,24.315s,PASSED
+"startApplication(""MobileApp/HappyDayShopping_v1.2.apk"", false)",,,,2022-07-31 22:04:52,2022-07-31 22:05:09,16.399s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-31 22:05:09,2022-07-31 22:05:12,3.010s,PASSED
+"tap(findTestObject(""Happy_Day_Shopping/ContactUs_TextView""), 0)",,,,2022-07-31 22:05:12,2022-07-31 22:05:13,1.735s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-31 22:05:13,2022-07-31 22:05:15,2.017s,PASSED
+closeApplication(),,,,2022-07-31 22:05:15,2022-07-31 22:05:16,0.805s,PASSED
